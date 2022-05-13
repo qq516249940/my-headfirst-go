@@ -1,0 +1,27 @@
+{
+  "name": "user-web",
+  "port": 9001,
+  "user_srv": {
+    "host": "192.168.0.84",
+    "port": 50051,
+    "name": "user_srv"
+  },
+  "redis": {
+    "host": "47.94.149.143",
+    "password": "wunai.18kkkkkkkkkkkkkkkkkkkkkk",
+    "port": 6379,
+    "db": 0,
+    "expire": 3000
+  },
+  "jwt": {
+    "key": "!42&%MFFezZmB8a^RhUiGa$l5g2z65HZ"
+  },
+  "ali_sms": {
+    "key": "LTAI4GAdvAHSnQGAuiu2vicL",
+    "secrect": "ZfneNg1Sa6bEpbVHlP16nCTmT9dInh"
+  },
+  "consul": {
+    "host": "192.168.0.4",
+    "port": 8500
+  }
+}
